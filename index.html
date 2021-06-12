@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>axios</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <style>
+        video {
+            position: fixed;
+            width: 800px;
+            height: 546px;
+            left: 50%;
+            top: 50%;
+            margin-top: -273px;
+            transform: translateX(-50%);
+            z-index: 2;
+        }
+
+        .mask {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .close{
+            font-size: 30px;
+            color: #fff;
+            position: fixed;
+            z-index: 3;
+            left: 50%;
+            top: 50%;
+            margin-top: -280px;
+            margin-left: 420px;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="box">
+            <div class="hd_box">
+                <p class="hd_txt">听歌</p>
+                <div class="hd_search">
+                    <input class="hd_search_inp" type="text" v-model="query" @keyup.enter="a">
+                    <button class="hd_search_btn" @click="btnClick">搜索</button>
+                </div>
+            </div>
+            <div class="bd_box">
+                <!-- 歌单 -->
+                <div class="music_list">
+                    <ul>
+                        <li class="music_list_li" v-for="item in musicList" @click="b(item.id)">
+                            <span class="music_list_li_play">☆</span>
+                            <span class="music_list_li_name">{{item.name}}</span>
+                            <span class="music_list_li_mv" v-if="item.mvid!=0" @click="playMv(item.mvid)">⊙</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 唱片 -->
+                <div class="music_info">
+                    <div class="record_w_box" :class="{picR:ccc}">
+                        <img src="./05.jpg" class="record_n_img">
+                        <img :src="picUrl" class="record_n_box picR " v-show="isshow">
+                        </img>
+                    </div>
+                </div>
+                <!-- 评论 -->
+                <div class="music_comments">
+                    <div class="hot"> 热门评论</div>
+                    <ul>
+                        <li class="user" v-for="item in userHot">
+                            <div class="faces">
+                                <img :src="item.user.avatarUrl" alt="" class="user_faces">
+                            </div>
+                            <div class="username">{{item.user.nickname}}</div>
+                            <div class="usertxt">
+                                {{item.content}}
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 播放条 -->
+            <div class="foot_box">
+                <audio @play="play" @pause="pause" :src="musicUrl" controls loop autoplay="autoplay"
+                    class="music_play"></audio>
+            </div>
+            <!-- mv -->
+            <div class="video_box" v-show="videoShow">
+                <video ref='video' :src="mvUrl" controls="controls" autoplay="autoplay"></video>
+                <div class="mask" @click="XX"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
