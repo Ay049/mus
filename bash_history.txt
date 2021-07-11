@@ -1,0 +1,500 @@
+git config --global user.name
+git config --global user.name ""
+git config --list
+git config --global --unset user.name
+git config --global --unset user.email
+git config --list
+git config user.name "Ayu"
+git config user.email "15558151096@163.com"
+git config --list
+git add ./
+git commit -m "1 commit for newAy v2 form ayu"
+git config --list
+ll
+git push origin master
+git status
+git log --oneline --decorate --graph --all
+git reflog
+git push origin master
+git config --global http.sslVerify "false"
+git push origin master
+git push 
+git push 
+git push 
+git push 
+git config --list
+git remote -v
+git log --oneline --decorate --graph --all
+git status
+exit
+git init
+echo "betteray.txt v1">betteray.txt
+git add ./
+git commit -m "1 commit for taobao v1 form betterAy"
+ll
+git status
+git remote add taobao https://github.com/Ay049/ay.git
+git remote -v
+git config
+git config --list
+git config user.name "ay"
+git config user.email "15558151096@163.com"
+git config --list
+git log --oneline --decorate --graph --all
+git push taobao master
+git log --oneline --decorate --graph --all
+git config --list
+git log --oneline --decorate --graph --all
+git push taobao master
+git add ./
+git commit -m "2 commit for taobao v2 form betterAy"
+git status
+git remote add taobao https://github.com/Ay049/ay.git
+git push taobao master
+git log --oneline --decorate --graph --all
+git config --global http.sslVerify "false"
+git push taobao master
+git status
+vim betteray.txt
+git add ./
+git commit -m "3 commit for taobao v2 form betterAy"
+git status
+git log --oneline --decorate --graph --all
+git push taobao master
+git remote -v
+git fetch taobao
+ll
+git log --oneline --decorate --graph --all
+git checkout taobao/master
+git log --oneline --decorate --graph --all
+ll
+git status
+git checkout master
+git log --oneline --decorate --graph --all
+git merge taobao/master
+ll
+git status
+cat ay.txt
+git status
+exit
+git log --oneline --decorate --graph --all
+git clone https://github.com/Ay049/ay.git
+git log --oneline --decorate --graph --all
+git checkout -b ay_c
+ll
+echo "ay_c.txt v1">ay_c.txt
+git add ./
+git commit -m "1 commit for ay_c.txt v1"
+git config --global user,neme "ay_c"
+git config --global user.neme "ay_c"
+git config --global user.eamil "ay_c@163.com"
+git add ./
+git commit -m "1 commit for ay_c.txt v1"
+git commit -m "2 commit for ay_c.txt v2"
+git config --global user.email "you@example.com"  
+git config --global user.name "Your Name"
+git commit -m "2 commit for ay_c.txt v2"
+git add ./
+git commit -m "2 commit for ay_c.txt v2"
+git status
+git remote -v
+push origin ay_c
+git clone https://github.com/Ay049/ay.git
+git config --list
+git config --global user.name "ayc"
+git config --global user.email "ayc@163.com"  
+git config --list
+git config --global --unset user.email  
+git config --list
+git config --global --unset user.email
+git config --list
+git config --global --unset user.name
+git config --list
+git config user.nanme
+git config user.name
+git config user.email
+git config --list
+git config --list
+git config --global --unset user.name
+git config --global --unset user.email
+git config --list
+ll
+echo "ayc.txt v1">ayc.txt
+git add ./
+git commit "1 commit for ayc.txt v1"
+git commit -m "1 commit for ay_c.txt v1"
+ git config --global user.email "ayc@163.com"
+ git config --global user.name "ayc"
+git commit -m "1 commit for ay_c.txt v1"
+git remote -v
+git log --oneline --decorate --graph --all
+ git push
+exit
+git log --oneline --decorate --graph --all
+ll
+exit
+git init
+echo "aya.txt v1">aya.txt
+git add ./
+git init
+git config --list
+git log --oneline --decorate --graph --all
+git remote -v
+git config --global --unset user.name
+git config --global --unset user.email
+git config --list
+git config --global --edit
+git config --list
+echo "aya.txt v1">aya.txt
+git add ./
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E
+$ git init
+Initialized empty Git repository in D:/前端/自学练习/10-git/E/.git/
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=D:/tool/GIT/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+http.sslverify=false
+user.neme=ay_c
+user.eamil=ay_c@163.com
+user.email=ayc@163.com
+user.name=ayc
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E (master)
+$ git log --oneline --decorate --graph --all
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E (master)
+$ git remote -v
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E (master)
+$ git config --global --unset user.name
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E (master)
+$ git config --global --unset user.email
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=D:/tool/GIT/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+http.sslverify=false
+user.neme=ay_c
+user.eamil=ay_c@163.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E (master)
+$ git config --global --edit
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=D:/tool/GIT/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+http.sslverify=false
+user.neme=aya
+user.eamil=aya@163.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E (master)
+$ echo "aya.txt v1">aya.txt
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E (master)
+$ git add ./
+warning: LF will be replaced by CRLF in aya.txt.
+The file will have its original line endings in your working directory
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/E (master)
+$
+git add ./
+git init
+git config list
+git config --list
+git log --oneline --decorate --graph --all
+git config --global alias.lol 'log --oneline --decorate --graph --all'
+git lol
+echo "aya.txt v1">aya.txt
+git add ./
+git commit "1 commit for aya.txt v1"
+git commit -m "1 commit for aya.txt v1"
+git config --list
+git config --global user.name "Ayb"
+git config --global user.email "Ayb@163.com"
+git config --list
+git commit -m "1 commit for aya.txt v1"
+git remote -v
+git remote add origin 
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A
+$ git init
+Initialized empty Git repository in D:/前端/自学练习/10-git/A/.git/
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git config list
+error: key does not contain a section: list
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=D:/tool/GIT/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+http.sslverify=false
+user.neme=aya
+user.eamil=aya@163.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git log --oneline --decorate --graph --all
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git config --global alias.lol 'log --oneline --decorate --graph --a
+
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git lol
+
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ echo "aya.txt v1">aya.txt
+
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git add ./
+warning: LF will be replaced by CRLF in aya.txt.
+The file will have its original line endings in your working director
+
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git commit "1 commit for aya.txt v1"
+error: pathspec '1 commit for aya.txt v1' did not match any file(s) k
+
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git commit -m "1 commit for aya.txt v1"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+fatal: unable to auto-detect email address (got 'Ay@DESKTOP-MTQ37HC.(
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=D:/tool/GIT/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+http.sslverify=false
+user.neme=aya
+user.eamil=aya@163.com
+alias.lol=log --oneline --decorate --graph --all
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git config --global user.name "Ayb"
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git config --global user.email "Ayb@163.com"
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=D:/tool/GIT/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+http.sslverify=false
+user.neme=aya
+user.eamil=aya@163.com
+user.name=Ayb
+user.email=Ayb@163.com
+alias.lol=log --oneline --decorate --graph --all
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$ git commit -m "1 commit for aya.txt v1"
+[master (root-commit) bc69205] 1 commit for aya.txt v1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 aya.txt
+Ay@DESKTOP-MTQ37HC MINGW64 /d/前端/自学练习/10-git/A (master)
+$
+git status
+exit
+git init
+git config --list
+git config user.name
+git config user.email
+echo "aya.txt v1">aya.txt
+git add ./
+git commit "1 commit for aya.txt v1 aya"
+git commit  -m "1 commit for aya.txt v1 aya"
+git remote -v
+git remote add origin https://github.com/Ay049/practice-v2.git
+git remote -v
+git push
+git push origin master
+git lol
+git status
+exit
+git clone https://github.com/Ay049/practice-v2.git
+git config --global -l
+git clone https://github.com/Ay049/practice-v2.git
+env|grep -i proxy  
+git clone https://github.com/Ay049/practice-v2.git
+ll
+git status
+git remote -v
+git config --list
+echo "ayb.txt v1">ayb.txt
+exit
+git status
+git checkout  -b "ayb"
+echo "ayb.txt v1">ayb.txt
+git add ./
+git commit -m "1 commit for ayb.txt v1 ayb"
+git remote -v
+git push origin ayb
+ll
+cat ayb.txt
+cat aya.txt
+git lol
+git lol
+vim ayb.txt 
+git status
+git commit -a -m "2 commit for ayb.txt"
+git remote -v
+git push origin ayb
+git status
+git checkout master
+ll
+git lol
+git push
+git status
+exit
+git lol
+git fetch practice-v2
+git fetch A
+git fetch aya
+git fetch ayb
+git push
+git remote -v
+git fetch origin
+git fetch A
+git fetch B
+git fetch practice-v2
+git lol
+git fetch origin
+git lol
+gir branch
+git branch ayb
+git lol
+git checkout ayb
+git merge origin/master
+ll
+git status
+exit
+git init
+git config --global user.name "Ay049"
+git config --global user.email "15558151096@163.com"
+exit
+cd ~/.ssh
+ls
+或者
+ll
+//看是否存在 id_rsa 和 id_rsa.pub文件，如果存在，说明已经有SSH Key
+cd ~/.ssh
+ls
+cat id_rsa.pub
+//拷贝秘钥 ssh-rsa开头
+cat id_rsa.pub
+ssh -T git@github.com
+cat id_rsa.pub
+exit
+git config --global user.name "Ay"
+git config --global user.email "2514345519@qq.com"
+git init
+git add ./
+git commit -m "first commit"
+git remote add origin https://gitee.com/tyayu/music.git
+git push -u origin master
+git push -u origin master
+git push -u origin master
+git push -u origin master
+git push -u origin master
+git push -u origin master
+git push -u origin master
+exit
+git init
+exit
